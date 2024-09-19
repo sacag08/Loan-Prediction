@@ -1,8 +1,8 @@
 About the Data Used in the modeling:
 
-Description
+****Description
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution.
-Summary
+****Summary
 The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
 There are four datasets:
@@ -23,9 +23,7 @@ bank client data:
 4 - education (categorical: 'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')<br>
 5 - default: has credit in default? (categorical: 'no','yes','unknown')<br>
 6 - housing: has housing loan? (categorical: 'no','yes','unknown')<br>
-7 - loan: has personal loan? (categorical: 'no','yes','unknown')<br>
-
-related with the last contact of the current campaign:
+7 - loan: has personal loan? (categorical: 'no','yes','unknown') related with the last contact of the current campaign:<br>
 8 - contact: contact communication type (categorical: 'cellular','telephone')<br>
 9 - month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')<br>
 10 - day_of_week: last contact day of the week (categorical: 'mon','tue','wed','thu','fri')<br>
@@ -43,6 +41,6 @@ social and economic context attributes<br>
 18 - cons.conf.idx: consumer confidence index - monthly indicator (numeric)<br>
 19 - euribor3m: euribor 3 month rate - daily indicator (numeric)<br>
 20 - nr.employed: number of employees - quarterly indicator (numeric)<br>
-<br><br>
+<br>
 Output variable (desired target):<br>
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')<br>
