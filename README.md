@@ -42,5 +42,5 @@ social and economic context attributes<br>
 19 - euribor3m: euribor 3 month rate - daily indicator (numeric)<br>
 20 - nr.employed: number of employees - quarterly indicator (numeric)<br>
 <br>
-Output variable (desired target):<br>
+#### Output variable (desired target):<br>
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')<br>
