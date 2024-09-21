@@ -6,4 +6,5 @@ xgboost
 catboost
 LightGBM
 dill
+ipykernel
 -e .

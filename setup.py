@@ -12,7 +12,7 @@ def get_requirements(filepath:str)->List[str]:
     return requirements
 
 setup(
-    name = "Loan Prediction",
+    name = "Online Shopping Intention",
     version = "0.0.1",
     author = "Sachit",
     author_email = "sachitagarwal98@gmail.com",
